@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --orange: #E28625;
+    --turquoise: #006971;
+    --green: #004140;
+    --offwhite: #f2f2f2;
+    --white: #fff;
+    --light: rgba(255, 255, 255, 0.75);
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--offwhite);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.6rem;
+    height: 100vh;
+}
+
+section {
+    padding: 4.8rem;
+}
+
+.sedans_laranja {
+    background: var(--orange);
+    border-radius: 10px 0 0 10px;
+}
+
+.suv_turquesa {
+    background: var(--turquoise);
+}
+
+.luxuosos_verde {
+    background: var(--green);
+    border-radius: 0 10px 10px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 92rem;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    margin-top: 1.875rem;
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 4rem;
+}
+
+img {
+    margin-bottom: 1.875rem;
+}
+
+p, a {
+    font-family: "Lexend Deca", sans-serif;
+    
+}
+ 
+p {
+    color: var(--white);
+    opacity: 75%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding-bottom: 8.2rem;
+}
+
+a {
+    display: block;
+    border: 2px solid var(--white);
+    background: var(--offwhite);
+    padding-inline: 4.2rem;
+    padding-block: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+    width: fit-content;
+    border-radius: 2.5rem;
+}
+
+.sedans_laranja a {
+    color: var(--orange);
+    background: var(--white);
+}
+
+.suv_turquesa a {
+    color: var(--turquoise);
+    background: var(--white);
+}
+
+.luxuosos_verde a {
+    color: var(--green);
+    background: var(--white);
+}
+
+.sedans_laranja a:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.suv_turquesa a:hover {
+    background-color: var(--turquoise);
+    color: var(--white);
+}
+
+.luxuosos_verde a:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
